@@ -1,11 +1,16 @@
-num = int(input("Enter a number: "))  
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-if num > 0:  
-    print("The number is positive.")
-elif num < 0:  
-    print("The number is negative.")
-else:  
-    print("The number is zero.")
+even_numbers = []
+for num in numbers:
+    if num % 2 == 0:
+        even_numbers.append(num)
+
+print(even_numbers)  
+
+
+
+ 
+
 
     
 
